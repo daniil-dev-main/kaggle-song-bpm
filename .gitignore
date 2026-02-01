@@ -1,0 +1,32 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files
+data/*
+!data/.gitkeep
+
+# Model artifacts
+*.pkl
+*.joblib
+*.model
+
+# Submission
+submission/*
+!submission/.gitkeep
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
